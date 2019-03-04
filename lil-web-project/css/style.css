@@ -1,0 +1,54 @@
+@font-face{font-family:'Parry Hotter';
+  src: url("./fonts/parryhotter.ttf");
+}
+@font-face{
+  font-family:'Dragon is coming';
+  src: url('./fonts/Dragon is coming.otf');
+}
+body{
+      background-color:rgba(33,35,34,0.85);
+      font-family:Arial, Helvetica, sans-serif;
+      color:#ffffff;
+      font-size:16px;  
+      text-shadow: 1px 1px 7px #111111;
+    }
+h2{font-family:"Dragon is coming";
+  color:#e2d7d5;
+  font-size:72px;
+  text-shadow: 2px 2px 9px #111111;
+
+}
+
+p,a {
+  color:#d3c9c6;
+  text-decoration: none;
+  }   
+ul > li {
+       color:#ffffff;
+}
+
+p.harry{
+  font-family:"Parry Hotter";
+  text-align:justify;
+}
+footer{
+  font-size:12px;
+  text-align:center;
+}
+
+h2+p:first-letter{
+  font-weight:bold;
+  font-size:200%;
+}
+
+a:hover{
+  font-size:125%;
+}
+
+a:active{
+  opacity:0.85;
+  font-size:125%;
+}
+input.submit:focus{
+  background-color: red;
+}
