@@ -5,31 +5,46 @@
   font-family:'Dragon is coming';
   src: url('./fonts/Dragon is coming.otf');
 }
+html{
+  min-width:1200px;
+  max-width:1200px;
+}
 body{
-      background-color:rgba(33,35,34,0.85);
+      background-color:#383643;
       font-family:Arial, Helvetica, sans-serif;
       color:#ffffff;
       font-size:16px;  
       text-shadow: 1px 1px 7px #111111;
     }
-h2{font-family:"Dragon is coming";
-  color:#e2d7d5;
-  font-size:72px;
-  text-shadow: 2px 2px 9px #111111;
-
+.top-site{text-align:center;
+          background-image:url("./images/doge.jpg");
+          }  
+li{
+  display:inline;
+  color:#ffffff;
+  margin:2px;
+  text-align: center; 
+  padding:12px;
+  border-radius: 10px; 
 }
 
+h2{font-family:"Parry Hotter";
+  color:#ffffff;
+  font-size:24px;
+  text-shadow: 2px 2px 9px #111111;
+  text-align:center;
+}
+.comment-site, .temporary{
+  margin:4px auto 4px auto;
+  text-align:center;
+}
 p,a {
-  color:#d3c9c6;
+  color:#ffffff;
   text-decoration: none;
   }   
-ul > li {
-       color:#ffffff;
-}
-
 p.harry{
-  font-family:"Parry Hotter";
   text-align:justify;
+  font-size:16px;
 }
 footer{
   font-size:12px;
@@ -41,8 +56,9 @@ h2+p:first-letter{
   font-size:200%;
 }
 
-a:hover{
-  font-size:125%;
+li:hover{
+  background-color:#0294fe;
+  color:#383643;
 }
 
 a:active{
@@ -51,4 +67,7 @@ a:active{
 }
 input.submit:focus{
   background-color: red;
+}
+.harry{
+  padding:4px;
 }
