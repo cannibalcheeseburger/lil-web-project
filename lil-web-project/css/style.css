@@ -6,18 +6,30 @@
   src: url('./fonts/Dragon is coming.otf');
 }
 html{
-  min-width:1200px;
-  max-width:1200px;
+  min-width:720px;
+  max-width:1900px;
 }
 body{
       background-color:#383643;
       font-family:Arial, Helvetica, sans-serif;
       color:#ffffff;
-      font-size:16px;  
-      text-shadow: 1px 1px 7px #111111;
-    }
+      font-size:18px;  
+      text-shadow: 2px 2px 14px #111111;
+      width:99%;
+      margin:auto;
+      background-image: url("../images/back.jpg");
+}
+   
 .top-site{text-align:center;
-          background-image:url("./images/doge.jpg");
+         background-image:url("../images/banner.png");
+          width:99%;
+          height:720px;
+          margin:10px;
+          border-radius:10px;
+          box-shadow:0px 0px 20px #000000;
+          background-attachment:scroll;
+          background-size:100%;
+          background-position:50% 40%;
           }  
 li{
   display:inline;
@@ -25,12 +37,16 @@ li{
   margin:2px;
   text-align: center; 
   padding:12px;
+  font-size:24px;
   border-radius: 10px; 
+  text-shadow:0px 0px 0px #000000;
 }
-
+h1{
+  font-size:72px;
+}
 h2{font-family:"Parry Hotter";
   color:#ffffff;
-  font-size:24px;
+  font-size:48px;
   text-shadow: 2px 2px 9px #111111;
   text-align:center;
 }
@@ -42,12 +58,14 @@ p,a {
   color:#ffffff;
   text-decoration: none;
   }   
-p.harry{
+.harr{
   text-align:justify;
-  font-size:16px;
+  font-size:18px;
+  float:left;
+  display:block;
 }
 footer{
-  font-size:12px;
+  font-size:16px;
   text-align:center;
 }
 
@@ -57,8 +75,9 @@ h2+p:first-letter{
 }
 
 li:hover{
-  background-color:#0294fe;
-  color:#383643;
+  background-color: rgba(2,148,254,0.80);
+  color:#000000;
+  box-shadow:0px 0px 15px #000000;
 }
 
 a:active{
@@ -68,6 +87,56 @@ a:active{
 input.submit:focus{
   background-color: red;
 }
-.harry{
-  padding:4px;
+
+.top-bar{
+  border:10px 0px 10px 0px rgba(2,148,254,0.5);
+  margin:100px;
+  float:bottom;
+
 }
+
+.top-bar:hover{
+  border:10px 0px 10px 0px rgba(2,148,254,1);
+}
+
+table{
+  text-shadow:0px 0px 0px;
+  background-color:#383643;
+  text-align:center;
+  width:99%;
+  border:2px;
+}
+
+th,td:hover{
+  background-color:rgba(2,148,254,1);
+  height:18px;
+  width:18px;
+  color:black;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.harry{
+  background:url("../images/hogwarts.jpg");
+  background-repeat:no-repeat;
+  width:99%;
+  height:600px;
+  border-radius:10px;
+  box-shadow:0px 0px 20px #000000;
+  padding:4px;
+  background-size:100%;
+  background-position: bottom;
+}
+.tempo{
+  width:99%;
+  background-image: url("../images/doge.jpg");
+  border-radius:10px;
+  box-shadow:0px 0px 20px #000000;
+  background-attachment:scroll;
+  background-position:center center;
+ }
+ .leftimage{
+   display: block;
+   float:left;
+   height:220px;
+   width:108px;
+ }
